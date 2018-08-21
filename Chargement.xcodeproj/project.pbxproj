@@ -12,6 +12,7 @@
 		4C940A5D212C0C09009F0916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C940A5B212C0C09009F0916 /* Main.storyboard */; };
 		4C940A5F212C0C0A009F0916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C940A5E212C0C0A009F0916 /* Assets.xcassets */; };
 		4C940A62212C0C0A009F0916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C940A60212C0C0A009F0916 /* LaunchScreen.storyboard */; };
+		4C940A6A212C0C65009F0916 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C940A69212C0C65009F0916 /* CustomLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4C940A5E212C0C0A009F0916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C940A61212C0C0A009F0916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C940A63212C0C0A009F0916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C940A69212C0C65009F0916 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4C940A57212C0C09009F0916 /* AppDelegate.swift */,
 				4C940A59212C0C09009F0916 /* ViewController.swift */,
+				4C940A69212C0C65009F0916 /* CustomLoadingView.swift */,
 				4C940A5B212C0C09009F0916 /* Main.storyboard */,
 				4C940A5E212C0C0A009F0916 /* Assets.xcassets */,
 				4C940A60212C0C0A009F0916 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C940A5A212C0C09009F0916 /* ViewController.swift in Sources */,
+				4C940A6A212C0C65009F0916 /* CustomLoadingView.swift in Sources */,
 				4C940A58212C0C09009F0916 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
